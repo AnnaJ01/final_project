@@ -1,14 +1,14 @@
-# import streamlit as st
+import streamlit as st
 
-# # Title of the app
-# st.title('Simple Web App')
+# Title of the app
+st.title('Simple Web App')
 
-# # Input from the user
-# name = st.text_input("Enter your name:")
+# Input from the user
+name = st.text_input("Enter your name:")
 
-# # Button to submit
-# if st.button("Submit"):
-#     st.write(f"Hello, {name}!")
+# Button to submit
+if st.button("Submit"):
+    st.write(f"Hello, {name}!")
 
 
 
