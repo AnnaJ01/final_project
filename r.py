@@ -1,14 +1,8 @@
 import streamlit as st
 
 # Title of the app
-st.title('Simple Web App')
+st.title('Publisher App')
 
-# Input from the user
-name = st.text_input("Enter your name:")
-
-# Button to submit
-if st.button("Submit"):
-    st.write(f"Hello, {name}!")
 
 
 
